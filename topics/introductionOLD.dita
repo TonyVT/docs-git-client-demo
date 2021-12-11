@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="introduction" outputclass="music">
+    <title>Introduction</title>
+    <shortdesc/>
+    <body>
+        <p>2/2 5/4 6/8 4/1 12/16 c c/ c3</p>
+        <p>I like @tre @bass @alto clefs Take five: @5/4 Siciliana is @e.se </p>
+        <p>MusGlyphs is a font that makes it easier to type a wide variety of musical symbols
+            directly into a word processor, combined with text fonts, without needing to adjust
+            baselines or point sizes, like this: </p>
+        <p>The complex 6/8 +<b> 2/4</b> signature has been replaced by six bars of <b>5/4</b> time
+            High voice available in <b>T3b </b>and low voice in <b>B2#</b></p>
+        <p>Swing rhythm is represented as <b>e.s = qe3</b> at a dynamic range <b>mp > ff</b> Jazz
+            musicians read shorthand like <b>|LLL%LL|LLL%%LL| </b>to play repeats </p>
+        <p>MusGlyphs modifies glyphs taken from Bravura and Academico and adjusts their position-
+            ing. </p>
+        <p>MusGlyphs works in any word processor or other software that supports ligatures and
+            kerning. Make sure these features are turned on for the glyphs to display correctly. </p>
+        <p>B@b;maj;7 (((@4/4))) C@b;maj;7</p>
+        <table id="table_csk_tpw_5rb">
+            <title>Convert to Minor</title>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <colspec colname="c4" colnum="4" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry><b>If the chord is…</b></entry>
+                        <entry><b>Use this minor area</b></entry>
+                        <entry><b>Base scale</b></entry>
+                        <entry><b>Play these notes from base scale</b></entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>C@b;maj;7</entry>
+                        <entry>I like @tre @bass @alto clefs Take five: @5/4 Siciliana is @e.se</entry>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        
+    </body>
+    
+</topic>

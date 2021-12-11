@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/Applications/Oxygen XML Editor/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/Applications/Oxygen XML Editor/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/Applications/Oxygen XML Editor/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/Applications/Oxygen%20XML%20Editor/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/ashes/ashes-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/Applications/Oxygen%20XML%20Editor/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/ashes/notes.css'?>
+<?xml-stylesheet type='text/css' href='file:/Users/anthonyventura/Dropbox/Apps/Oxygen XML/Personal/Music/Guide to Improvisation/music.css'?>
+<bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" cascade="merge" class="- map/map bookmap/bookmap " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (map bookmap) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic xnal-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="bookmap:1;3:10" xtrf="file:/Users/anthonyventura/Dropbox/Apps/Oxygen%20XML/Personal/Music/Guide%20to%20Improvisation/improvisation.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><booktitle xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title bookmap/booktitle ">  <mainbooktitle class="- topic/ph bookmap/mainbooktitle "><b class="+ topic/ph hi-d/b ">MusGlyphs</b></mainbooktitle>  </booktitle></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <booktitle class="- topic/title bookmap/booktitle ">  <mainbooktitle class="- topic/ph bookmap/mainbooktitle "><b class="+ topic/ph hi-d/b ">MusGlyphs</b></mainbooktitle>  </booktitle>
+    <frontmatter class="- map/topicref bookmap/frontmatter "><booklists class="- map/topicref bookmap/booklists "><tablelist class="- map/topicref bookmap/tablelist " href="#d70e22"><topicmeta class="- map/topicmeta "><navtitle href="#d70e22" class="- topic/navtitle ">List of Tables</navtitle></topicmeta></tablelist></booklists></frontmatter>
+    <chapter is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_1" navtitle="Introduction" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="introduction"><resourceid appid="introduction" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Introduction</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></chapter>
+
+</opentopic:map><ot-placeholder:tablelist xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" id="d70e22" class="- placeholder/tablelist "><title class="- topic/title ">List of Tables</title><entry class="- listentry/entry " href="#unique_1_Connect_42_table_csk_tpw_5rb"><prefix class="- listentry/prefix " href="#unique_1_Connect_42_table_csk_tpw_5rb">Table</prefix><number class="- listentry/number ">1</number><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Convert to Minor</ph></title></entry></ot-placeholder:tablelist><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_1" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="introduction" oid="introduction" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Introduction</ph></title>
+    <shortdesc class="- topic/shortdesc "/>
+    <body class="- topic/body ">
+        <p class="- topic/p " outputclass="music">2/2 5/4 6/8 4/1 12/16 c c/ c3</p>
+        <p class="- topic/p ">I like @tre @bass @alto clefs Take five: @5/4 Siciliana is @e.se </p>
+        <p class="- topic/p ">MusGlyphs is a font that makes it easier to type a wide variety of musical symbols
+            directly into a word processor, combined with text fonts, without needing to adjust
+            baselines or point sizes, like this: </p>
+        <p class="- topic/p ">The complex <b class="+ topic/ph hi-d/b " outputclass="music">6/8</b> +<b class="+ topic/ph hi-d/b " outputclass="music"> 2/4</b> signature has been replaced by six bars of <b class="+ topic/ph hi-d/b ">5/4</b> time
+            High voice available in <b class="+ topic/ph hi-d/b " outputclass="music">T3b </b>and low voice in <b class="+ topic/ph hi-d/b " outputclass="music">B2#</b></p>
+        <p class="- topic/p ">Swing rhythm is represented as <b class="+ topic/ph hi-d/b ">e.s = qe3</b> at a dynamic range <b class="+ topic/ph hi-d/b ">mp &gt; ff</b> Jazz
+            musicians read shorthand like <b class="+ topic/ph hi-d/b " outputclass="music">|LLL%LL|LLL%%LL| </b>to play repeats </p>
+        <p class="- topic/p ">MusGlyphs modifies glyphs taken from Bravura and Academico and adjusts their position-
+            ing. </p>
+        <p class="- topic/p ">MusGlyphs works in any word processor or other software that supports ligatures and
+            kerning. Make sure these features are turned on for the glyphs to display correctly. </p>
+        <p class="- topic/p ">B@b;maj;7 (((@4/4))) C@b;maj;7</p>
+        <table class="- topic/table " id="unique_1_Connect_42_table_csk_tpw_5rb" nd:nd-id="table_csk_tpw_5rb">
+            <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Convert to Minor</ph></title>
+            <tgroup class="- topic/tgroup " cols="4">
+                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;24:65" xtrf="file:/Users/anthonyventura/Dropbox/Apps/Oxygen%20XML/Personal/Music/Guide%20to%20Improvisation/topics/introduction.dita" style="width:25%;"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:2;25:65" xtrf="file:/Users/anthonyventura/Dropbox/Apps/Oxygen%20XML/Personal/Music/Guide%20to%20Improvisation/topics/introduction.dita" style="width:25%;"/>
+                <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" xtrc="colspec:3;26:65" xtrf="file:/Users/anthonyventura/Dropbox/Apps/Oxygen%20XML/Personal/Music/Guide%20to%20Improvisation/topics/introduction.dita" style="width:25%;"/>
+                <colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="1*" xtrc="colspec:4;27:65" xtrf="file:/Users/anthonyventura/Dropbox/Apps/Oxygen%20XML/Personal/Music/Guide%20to%20Improvisation/topics/introduction.dita" style="width:25%;"/>
+                <thead class="- topic/thead ">
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">If the chord is…</b></entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">Use this minor area</b></entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">Base scale</b></entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">Play these notes from base scale</b></entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody ">
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">C@b;maj;7</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">I like @tre @bass @alto clefs Take five: @5/4 Siciliana is @e.se</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2"/>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="2"/>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3"/>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3"/>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3"/>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="3"/>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4"/>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4"/>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4"/>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="4"/>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5"/>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5"/>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5"/>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="5"/>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6"/>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6"/>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6"/>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="6"/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        
+    </body>
+    
+</topic></bookmap>

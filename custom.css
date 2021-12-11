@@ -1,0 +1,152 @@
+@page chapter {
+	-oxy-initial-page-number: auto-odd;
+}
+/*@page table-of-contents {
+	-oxy-initial-page-number: auto-odd;
+}*/
+
+@page chapter:blank, table-of-contents:blank {
+     @top-left      { content: none; }
+     @top-center    { content: "This page intentionally left blank"; }
+     @top-right     { content: none; }
+     @bottom-left   { content: none; }
+     @bottom-center { content: none; }
+     @bottom-right  { content: none; }
+}
+/**[class ~= "topic/fig"] {
+  padding-bottom: 0.2in;
+}*/
+
+*[class ~= "topic/topic"][outputclass ~= "activity"] > *[class ~= "topic/title"] {
+/*  color: rgb(0, 152, 69);*/
+  color: rgb(0,0,0);
+}
+@page chapter {
+	-oxy-initial-page-number: auto-odd;
+}
+/*@page table-of-contents {
+	-oxy-initial-page-number: auto-odd;
+}*/
+
+@page chapter:blank, table-of-contents:blank {
+     @top-left      { content: none; }
+     @top-center    { content: "This page intentionally left blank"; }
+     @top-right     { content: none; }
+     @bottom-left   { content: none; }
+     @bottom-center { content: none; }
+     @bottom-right  { content: none; }
+}
+/**[class ~= "topic/fig"] {
+  padding-bottom: 0.2in;
+}*/
+
+*[class ~= "topic/topic"][outputclass ~= "activity"] > *[class ~= "topic/title"] {
+/*  color: rgb(0, 152, 69);*/
+    color: rgb(0,0,0);
+}
+
+/* Allow hyphenation */
+  body {
+    hyphens: auto;
+      hyphens: manual;
+/*      hyphens: none;*/
+  }
+  *[outputclass ~= "no-hyphenation"] {
+	white-space: nowrap;
+}
+
+*[class ~= "topic/table"] {
+    page-break-inside:avoid;
+}
+
+
+/*
+*[class ~= "topic/ol"] {
+    page-break-inside:avoid;
+}
+*[class ~= "topic/ul"] {
+    page-break-inside:avoid;
+}
+*/
+
+*[class ~= "task/step"] + *[class ~= "task/step"] {
+ padding-top: 1.0em;
+}
+
+*[class ~= "topic/li"] + *[class ~= "topic/li"] {
+padding-top: 1.0em;
+}
+
+*[class~="topic/ol"] {
+  counter-reset: list-counter;
+}
+
+*[class~="topic/ol"][outputclass="continue"] {
+  counter-reset: none;
+}
+
+*[class~="topic/ol"] > *[class~="topic/li"] {
+  counter-increment: list-counter;
+}
+
+*[class~="topic/ol"] > *[class~="topic/li"]::marker {
+  content: counter(list-counter)".\00a0";
+}
+
+/**[class ~= "topic/image"] + *[class ~= "topic/title"] {
+  page-break-before: avoid;
+}*/
+
+/* Allow hyphenation */
+  body {
+    hyphens: auto;
+      hyphens: manual;
+/*      hyphens: none;*/
+  }
+  *[outputclass ~= "no-hyphenation"] {
+	white-space: nowrap;
+}
+
+*[class ~= "topic/table"] {
+    page-break-inside:avoid;
+}
+/*
+*[class ~= "topic/ol"] {
+    page-break-inside:avoid;
+}
+*[class ~= "topic/ul"] {
+    page-break-inside:avoid;
+}
+*/
+
+*[class ~= "task/step"] + *[class ~= "task/step"] {
+ padding-top: 1.0em;
+}
+
+*[class ~= "topic/li"] + *[class ~= "topic/li"] {
+padding-top: 1.0em;
+}
+
+*[class~="topic/ol"] {
+  counter-reset: list-counter;
+}
+
+*[class~="topic/ol"][outputclass="continue"] {
+  counter-reset: none;
+}
+
+*[class~="topic/ol"] > *[class~="topic/li"] {
+  counter-increment: list-counter;
+}
+
+*[class~="topic/ol"] > *[class~="topic/li"]::marker {
+  content: counter(list-counter)".\00a0";
+}
+
+/**[class ~= "topic/image"] + *[class ~= "topic/title"] {
+  page-break-before: avoid;
+}*/
+
+*[topicrefclass ~= "bookmap/appendix"]:first-of-type {
+  page-break-before: always;
+}

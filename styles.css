@@ -1,0 +1,89 @@
+/*#
+@colors&{"titlesAccentColor":"#494949","labelsAccentColor":"#7b7a7a","linksAccentColor":"#2372de","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,fonts-selector,table-style-no-lateral-borders,left-pages-header-publication-title,right-pages-header-chapter-title,left-pages-footer-centered-page,right-pages-footer-centered-page&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICIATION CAN CAUSE UPLOADING ERRORS@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*fonts-selector*/
+@page {
+  font-family: 'BrandingFont', sans-serif;
+}
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="map/topicref"],
+*[class~='topic/title'],
+*[class~='topic/thead'],
+*[class~="placeholder/figurelist"],
+*[class~="placeholder/tablelist"],
+*[class~="index/groups"]::before,
+*[class~="index/group"] > *[class~="index/label"],
+.wh_publication_title,
+.wh_top_menu,
+.wh_tile_title .topicref,
+.wh_main_page_toc_entry .topicref,
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a {
+  font-family: 'BrandingFont', sans-serif;
+}
+body {
+  font-family: 'SecondaryBrandingFont', sans-serif;
+}
+/*table-style-no-lateral-borders*/
+*[class~="topic/table"],
+*[class~="topic/simpletable"] {
+  border-top: thin solid;
+  border-bottom: thin solid;
+  border-left: none;
+  border-right: none;
+}
+*[class~="topic/thead"] *[class~="topic/row"]:last-of-type,
+*[class~="topic/sthead"] {
+  border-bottom: medium solid;
+}
+*[class~="topic/entry"]:first-of-type,
+*[class~="topic/stentry"]:first-of-type {
+  border-left: none;
+}
+*[class~="topic/entry"]:last-of-type,
+*[class~="topic/stentry"]:last-of-type {
+  border-right: none;
+}
+/*left-pages-header-publication-title*/
+@page :left {
+  @top-left {
+    content: string(maptitle);
+  }
+}
+/*right-pages-header-chapter-title*/
+@page :right {
+  @top-right {
+    content: string(chaptertitle-no-prefix);
+  }
+}
+/*left-pages-footer-centered-page*/
+@page :left {
+  @bottom-center {
+    content: counter(page);
+  }
+}
+/*right-pages-footer-centered-page*/
+@page :right {
+  @bottom-center {
+    content: counter(page);
+  }
+}
+/*wh-tiles*/
+
